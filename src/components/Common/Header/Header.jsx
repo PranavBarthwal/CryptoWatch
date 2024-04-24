@@ -1,6 +1,7 @@
 import React from 'react'
 import "./styles.css" 
 import TemporaryDrawer from './Drawer'
+import Button from '../Button/Button'
 
 function Header() {
 
@@ -20,10 +21,11 @@ function Header() {
         <a href="/watchlist">
           <p className="link">Watchlist</p>
         </a>
-        <a href="/dashboard">
-          {/* <Button text={"dashboard"} /> */}
+        <a href="#">
+          <Button text={"dashboard"} onClick={() => console.log("clicked")} outlined={false} />
         </a>
       </div>
+      
       <div className="drawer-component">
         <TemporaryDrawer />
       </div>

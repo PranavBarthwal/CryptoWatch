@@ -19,17 +19,18 @@ export default function AnchorTemporaryDrawer() {
             onClose={() => setOpen(false)}
           >
             
-            <div className="links">
+            <div className="drawer-div">
             <a href="/">
-            <p className="link">Home</p>
+             <p className="drawer-link link">Home</p>
             </a>
             <a href="/compare">
-            <p className="link">Compare</p>
+              <p className="drawer-link link">Compare</p>
             </a>
             <a href="/watchlist">
-            <p className="link">Watchlist</p>
+             <p className="drawer-link link">Watchlist</p>
             </a>
             <a href="/dashboard">
+              <p className="drawer-link link">Dashboard</p>
             </a>
       </div>
 

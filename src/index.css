@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700&display=swap");
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700&display=swap");
 
 :root {
   --white: #fff;
@@ -27,6 +28,8 @@
   --grey: #888;
   --darkgrey: #f3f3f3;
 }
+
+
 
 html {
   scroll-behavior: smooth;
