@@ -1,25 +1,31 @@
-.main-flex {
+.flex-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 1rem 3rem;
+    padding:  3rem;
   }
   
-  .heading1,
-  .heading2 {
-    font-size: 6rem;
+  .track-crypto-heading,
+  .real-time-heading {
+    font-size: 7rem;
+    font-weight: 900;
     margin: 0;
+    padding-top: 3rem;
   }
+
   
-  .heading1:hover {
+  .track-crypto-heading:hover {
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: var(--white);
     color: var(--black);
     transition: all 0.3s;
+    
   }
   
-  .heading2 {
+  .real-time-heading  {
     color: var(--blue);
+    margin-top: 0;
+    padding-top: 0;
   }
   
   .info-text {
@@ -42,25 +48,26 @@
   .gradient {
     position: absolute;
     right: 0px;
-    top: 80px;
+    top: 40px;
     width: 250px;
   }
   .iphone {
     position: absolute;
     right: 10px;
     width: 300px;
+    z-index: 100;
   }
   
   @media only screen and (max-width: 1350px) {
-    .heading1,
-    .heading2 {
+    .track-crypto-heading,
+    .real-time-heading {
       font-size: 5rem;
     }
   }
   
   @media only screen and (max-width: 1050px) {
-    .heading1,
-    .heading2 {
+    .track-crypto-heading,
+    .real-time-heading {
       font-size: 4rem;
     }
   
@@ -76,18 +83,18 @@
   }
   
   @media only screen and (max-width: 800px) {
-    .heading1,
-    .heading2 {
-      font-size: 2rem;
+    .track-crypto-heading,
+    .real-time-heading {
+      font-size: 4rem;
     }
-    .main-flex {
+    .flex-info {
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
   
-    .heading1,
-    .heading2,
+    .track-crypto-heading,
+    .real-time-heading,
     .info-text {
       text-align: center;
     }
@@ -109,11 +116,11 @@
   @media only screen and (max-width: 800px) {
     .gradient,
     .iphone {
-      left: 0px;
+      left: 28px;
     }
   
     .iphone {
-      left: -30px;
+      left: 0px
     }
   }
   

@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <div className="header">
-      <img src="src/assets/logo.png" className='w-40 ' />
+      <img src="src/assets/logo.png" style={{ width:"10rem" }} />
       <div className="links">
         {/* <Switch checked={darkMode} onClick={() => changeMode()} /> */}
         <a href="/">
