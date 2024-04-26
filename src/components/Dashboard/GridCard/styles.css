@@ -67,7 +67,6 @@
     justify-content: flex-start;
     gap: 1rem;
     align-items: center;
-    margin: 1rem 1.5rem ;
   }
   
   .price-chip {
@@ -76,7 +75,7 @@
   }
   
   .price-chip,
-  .trending-icon {
+  .trending-icon{
     padding: 0.5rem 1rem;
     border: 2px solid var(--green);
     border-radius: 3rem;
@@ -85,7 +84,7 @@
   }
   
   .trending-icon {
-    padding: 0.5rem;
+    padding: 0.25rem 1rem;
   }
   
   .price-chip:hover,
@@ -102,6 +101,32 @@
   .red:hover {
     background-color: var(--red);
   }
+
+  .info-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: ;
+    font-size: 0.55rem;
+    color: var(--grey);
+    font-weight: 600;
+    margin: 0.3rem;
+  }
+
+  .info-chip{
+    padding: 0.15rem 0.5rem;
+    border: 0.1px solid var(--white);
+    border-radius: 3rem;
+    font-weight: 200;
+    color: var(--white);
+  }
+
+  .info-chip:hover{
+      background-color: var(--white);
+      color: var(--black);
+      font-weight: 400;
+      /* transition: all 0.3s; */
+  }
   
   .coin-price {
     font-size: 1.3rem;
@@ -113,11 +138,6 @@
     color: var(--red);
   }
   
-  .coin-name-2 {
-    font-size: 1rem;
-    color: var(--grey);
-    font-weight: 600;
-  }
   
   .watchlist-icon {
     padding: 0.5rem;
