@@ -61,6 +61,14 @@
     text-transform: capitalize;
     margin: 0;
   }
+
+  .chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin: 1rem 1.5rem ;
+  }
   
   .price-chip {
     min-width: 4rem;

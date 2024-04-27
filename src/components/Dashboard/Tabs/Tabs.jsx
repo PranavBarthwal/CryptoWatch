@@ -27,7 +27,7 @@ export default function TabsComponent({coins}) {
         </TabList>
         <TabPanel value="grid" style={{ color: 'white' }}>
           <div className='grid-flex'>
-            {coins.map((item, i)=>{
+            {coins.map((coins, i)=>{
                 return (
                     <GridCard coins={coins} key={i} />
                 )
