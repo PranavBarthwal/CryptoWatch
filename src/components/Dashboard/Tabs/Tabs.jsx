@@ -35,15 +35,13 @@ export default function TabsComponent({coins}) {
           </div>
         </TabPanel>
         <TabPanel value="list" style={{ color: 'white' }}>
-        <div>
-            {coins.map((item, i)=>{
+        <table>
+            {coins.map((coins, i)=>{
                 return (
-                    <p key={i}>
-                        {i+1}. {<img src={item.image} />}
-                    </p>
+                    <ListCard coins={coins} key={i}/>
                 )
             })}
-          </div>
+          </table>
         </TabPanel>
       </TabContext>
     </div>

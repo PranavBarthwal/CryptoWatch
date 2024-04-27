@@ -1,6 +1,6 @@
 .grid-container {
     width: 280px;
-    height: auto;
+    min-height : 21.5rem;
     background-color: var(--darkgrey);
     border-radius: 1rem;
     padding: 2rem;
@@ -110,7 +110,7 @@
     font-size: 0.55rem;
     color: var(--grey);
     font-weight: 600;
-    margin: 0.3rem;
+    margin-right: 0.5rem;
   }
 
   .info-chip{
