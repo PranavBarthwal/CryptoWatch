@@ -5,7 +5,7 @@ import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 
 function GridCard({coins}) {
     return (
-       <div className='grid-container'>
+       <div className={`grid-container ${coins.price_change_percentage_24h<0 && "grid-container-red"}`}>
         <div className="info-flex">
         
             <div className="coin-info-flex">
