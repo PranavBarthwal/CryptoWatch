@@ -48,7 +48,7 @@ function GridCard({coins}) {
                 <p className='info-div info-chip'>Market Cap Rank: {coins.market_cap_rank}</p>
                 <p className='info-div info-chip'>Total Volume : {coins.total_volume.toLocaleString()} </p>
                 <p className='info-div info-chip'>Market Cap : $ {coins.market_cap.toLocaleString()}</p>
-                <p className='info-div info-chip'>Total Supply : $ {coins.total_supply.toFixed(0).toLocaleString()}</p>
+                <p className='info-div info-chip'>Total Supply : $ {coins.total_supply}</p>
             </div>
             
              
