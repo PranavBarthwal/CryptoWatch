@@ -5,6 +5,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import GridCard from '../GridCard/GridCard';
+import ListCard from '../ListCard/ListCard';
 
 export default function TabsComponent({coins}) {
   const [value, setValue] = useState('grid');
