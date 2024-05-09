@@ -33,8 +33,8 @@ CryptoWatch is a cryptocurrency price tracking web application currently *under 
 ### 8. Fast Development with Vite
 - Accelerate development process with Vite, a next-generation frontend tooling that provides blazing fast dev server and optimized build.
   
-### 9. Deployed on Netlify
-- Instantly access the cryptoWatch application deployed on Netlify for hassle-free usage and deployment.
+### 9. Deployed on Vercel
+- Instantly access the cryptoWatch application deployed on Vercel for hassle-free usage and deployment.
 
 ## Technologies Used
 
@@ -47,7 +47,7 @@ CryptoWatch is a cryptocurrency price tracking web application currently *under 
 - Framer Motion
 - CoinGeckoAPI
 - Chart.js
-- Netlify
+- Vercel
 
 <!-- ## Usage
 
@@ -99,7 +99,7 @@ CryptoWatch is open to contributions. If you would like to contribute, please fo
 
 - [CoinGecko](https://www.coingecko.com/) for providing the cryptocurrency data.
 - [Chart.js](https://www.chartjs.org/) for the interactive charts.
-- [Netlify](https://www.netlify.com/) for hosting the application.
+- [Vercel](https://www.vercel.com/) for hosting the application.
 
 ## Contact
 
