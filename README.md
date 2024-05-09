@@ -3,6 +3,10 @@
 
 CryptoWatch is a cryptocurrency price tracking web application currently *under development*. It provides users with real-time updates on cryptocurrency prices, trends, and market data.
 
+![Screenshot 2024-05-10 015713](https://github.com/PranavBarthwal/CryptoWatch/assets/110532770/70316ecb-1220-403e-b15d-4c0bea2b7646)
+![Screenshot 2024-05-10 015750](https://github.com/PranavBarthwal/CryptoWatch/assets/110532770/7dc1da99-7d91-40b1-bcd9-970a70c56426)
+
+
 ## Key Features
 
 ### 1. Real-Time Crypto Prices
