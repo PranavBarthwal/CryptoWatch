@@ -36,7 +36,7 @@ export default function TabsComponent({coins}) {
           </div>
         </TabPanel>
         <TabPanel value="list" style={{ color: 'white' }}>
-        <table>
+        <table className='list-flex'>
             {coins.map((coins, i)=>{
                 return (
                     <ListCard coins={coins} key={i}/>
