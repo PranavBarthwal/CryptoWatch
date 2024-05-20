@@ -49,6 +49,15 @@
   }
   
   @media only screen and (max-width: 900px) {
+    .mobile {
+      display: block !important;
+      text-align: left !important;
+    }
+
+    .desk-mkt{
+      display: none;
+    }
+    
     .td-chip-icon {
       display: none;
     }
